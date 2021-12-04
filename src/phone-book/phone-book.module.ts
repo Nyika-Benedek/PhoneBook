@@ -4,6 +4,6 @@ import { PhoneBookController } from './phone-book.controller';
 
 @Module({
   providers: [PhoneBookService],
-  controllers: [PhoneBookController]
+  controllers: [PhoneBookController],
 })
 export class PhoneBookModule {}
