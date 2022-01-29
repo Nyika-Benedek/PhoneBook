@@ -2,8 +2,8 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { from, Observable } from 'rxjs';
 import { EntityRepository, Repository } from 'typeorm';
-import { PhoneBookEntity } from './modell/phone-book.entity';
-import { PhoneBook } from './modell/phone-book.interface';
+import { PhoneBookEntity } from '../modell/phone-book.entity';
+import { PhoneBook } from '../modell/phone-book.interface';
 
 @Injectable()
 export class PhoneBookService {

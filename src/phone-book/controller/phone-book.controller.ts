@@ -1,8 +1,8 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { resourceUsage } from 'process';
 import { Observable } from 'rxjs';
-import { PhoneBook } from './modell/phone-book.interface';
-import { PhoneBookService } from './phone-book.service';
+import { PhoneBook } from '../modell/phone-book.interface';
+import { PhoneBookService } from '../service/phone-book.service';
 
 @Controller('phones')
 export class PhoneBookController {
