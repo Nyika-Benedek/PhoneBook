@@ -1,5 +1,6 @@
 export interface PhoneBook {
+  id: number;
   name: string;
   phoneNum: number;
-  email: string;
+  email?: string; //? = optional
 }
